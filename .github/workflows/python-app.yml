@@ -27,4 +27,4 @@ jobs:
         if [ -f Pipfile ]; then pipenv install --dev --pre; fi
     - name: Test with pytest
       run: |
-        pytest
+        pipenv run pytest
