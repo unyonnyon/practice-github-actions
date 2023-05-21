@@ -16,3 +16,4 @@ if __name__ == "__main__":
     a = 3
     b = 4
     print(add(a, b), sub(a, b))
+    print("double of", a, "is", double(a))
