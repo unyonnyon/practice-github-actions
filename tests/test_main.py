@@ -1,4 +1,4 @@
-from mypackage.main import add, sub, times
+from mypackage.main import add, double, sub, times
 
 def test_add():
     a = 3
@@ -14,3 +14,7 @@ def test_times():
     a = 3
     b = 4
     assert times(a, b) == 12
+
+def test_double():
+    a = 3
+    assert double(a) == 6
